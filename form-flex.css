@@ -1,0 +1,45 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+.form-container{
+    width: 100%;
+}
+.form{
+    width: 100%;
+}
+.form__text{
+    padding: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+.form__submit{
+    box-sizing: border-box;
+    width: 90px;
+    display: block;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.form_container{
+    display: flex;
+    align-items: center;
+}
+[dir=ltr] .form__submit{
+    margin-left: 15px;
+}
+[dir=rtl] .form__submit{
+    margin-right: 15px;
+}
+[dir=ltr] .form_flex{
+    flex-direction: row;
+}
+[dir=rtl] .form_flex{
+    flex-direction: row-reverse;
+}
